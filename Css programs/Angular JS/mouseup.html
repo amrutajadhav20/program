@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="mymod">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script src="module5.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+
+<input type="button" value="Clickme" ng-click="a=a+1">
+<h2>{{a}}</h2>
+
+<input type="button" value="Clickme" ng-dblclick="b=b+1">
+<h2>{{b}}</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="mymod">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script src="keyboard.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+
+<input text ng-model="a" ng-copy="x=x+1">
+<h2>{{x}}</h2>
+
+<input text ng-model="b" ng-paste="y=y+1">
+<h2>{{y}}</h2>
+
+<input text ng-model="c" ng-cut="z=z+1">
+<h2>{{z}}</h2>
+
+
+</div>
+</body>
+</html>

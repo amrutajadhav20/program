@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+<td>name
+<tr>{{emp.name}}</tr>
+</td>
+<td>id
+<tr>{{emp.id}}</tr>
+</td>
+<td>post
+<tr>{{emp.post}}</tr>
+</td>
+<td>salary
+<tr>{{emp.salary}}</tr>
+</td>
+
+<div ng-init="Emp={name:'Amruta', id:23, post:'Developer', salary:35}">
+<h2>Enter name is:{{Emp.name}}</h2>
+<h2>Enter name is:{{Emp.id}}</h2>
+<h2>Enter name is:{{Emp.post}}</h2>
+<h2>Enter name is:{{Emp.salary}}</h2>
+</div>
+</body>
+</html>
+
