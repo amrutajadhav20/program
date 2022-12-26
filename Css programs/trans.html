@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>trans</title>
+<style>
+div{
+height:100px;
+width:100px;
+background-color:pink;
+}
+div:hover{
+transition-property:width ,height;
+width:400px;
+height:400px;
+transition-delay:2s;
+transition-timeing-function:ease;
+transition-duration:5s;
+transform-rotate:(180);
+
+}
+.div1{
+width:100px;
+height:100px;
+background-color:green;
+transition-timing-function:linear;
+}
+.div2{
+width:100px;
+height:100px;
+background-color:red;
+}
+.div2:hover{
+transition-timing-function:ease-out;
+transition-duration:5s;
+}
+.div3{
+width:100px;
+height:100px;
+background-color:green;
+transition-timing-function:step-start;
+transition-duration:5s;
+}
+.div4{
+width:100px;
+height:100px;
+background-color:blue;
+transition-timing-function:step-stop;
+transition-duration:5s;
+}
+
+</style>
+</head>
+<body>
+<div class="div1">welcome</div></br>
+<div class="div2"> quastech</div></br>
+<div class="div3"> do come visit</div></br>
+<div class="div4">thank you</div>
+
+</body>
+</html>
+

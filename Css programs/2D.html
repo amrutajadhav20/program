@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+  width:300px;
+height:100px;
+background-color:lightpink;
+border:1px solid black;
+}
+
+div#mydiv{
+-ms-transform:rotate(30deg);/*IE 9*/
+-wedkit-transform:rotate(30deg);/*safari*/
+transform:rotate(30deg);/*standard syntax*/
+}
+div#mydiv1{
+transform:scale:(2,2);
+}
+div#mydiv2{
+transform:scale(2);
+}
+div#mydiv3{
+transform:scale(20deg);
+}
+div#mydiv4{
+transform:matrix(1,-0.3,0,1,0,0);
+}
+</style>
+</head>
+<body>
+<div>
+This is normal div element.
+</div>
+<div id="mydiv">
+This is 30 degree closckwise rotated div element by using rotate()method.</div><br><br>
+<div id="mydiv1"></div><br><br>
+<div id="mydiv2"></div><br><br>
+<div id="mydiv3"></div><br><br>
+<div id="mydiv4">matrix</div><br><br>
+
+</body>
+</html>
