@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Math Object</title>
+</head>
+<body>
+<script>
+console.log(Math.min(56,34,76,23,14,67));
+console.log(Math.max(56,34,76,23,14,67));
+console.log(Math.ceil(10.5));
+console.log(Math.floor(10.5));
+console.log(Math.round(10.5));
+
+
+document.write(Math.random(),"<br>");
+function generateRandom(min,max){
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.random()*(max-min)+min;
+}
+document.write(generateRandom(1,100));
+console.log(Math.pow(10,10));
+console.log(Math.sqrt(64));
+console.log(Math.cbrt(27));
+console.log(Math.log(56)); 
+
+
+</script>
+</body>
+</html>
+
+
+

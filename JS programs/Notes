@@ -1,0 +1,38 @@
+
+There are 3 types to add Js 
+1) internal Js in body tag 
+<head>
+<title> internal js <title></head>
+<body>
+<SCRIPT>
+DOCUMENT.WRITE("hello world")
+<script>
+
+internal js head tag
+<body>
+<script>
+
+
+external js us file 
+<head>
+<script src="file name..">
+</script>
+</head>
+
+
+*document.write:wedpage print karne ke liye
+console.log:console mai print karta hai
+
+*prompt:is use for to take input from the user.
+
+
+Alert: it show warning
+variables name should start with (a-z)
+or (A-Z)or $ it should  be not start with a number
+ java script is case- sensitive
+
+var: we can redeclare value in var
+let & const: we can not-declare  value in var
+
+
+Break: (a,"<br">) tag

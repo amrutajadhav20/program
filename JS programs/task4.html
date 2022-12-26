@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>filter every operation</title>
+</head>
+<body>
+<script>
+
+
+var num=[41,100,101,14,15,10000];
+var a = num.sort(function(a,b){
+return a-b;
+});
+console.log(a);
+
+
+var rev=num.reverse(function(a,b){
+return b-a;
+});
+console.log(rev);
+
+
+var dec=num.sort(function(a,b){
+return b-a;
+});
+console.log(dec);
+
+var fil=num.filter(function(value,index,array){
+return value>60
+});
+
+console.log(fil);
+
+</script>
+</body>
+</html>

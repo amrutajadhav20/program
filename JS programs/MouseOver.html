@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MouseOver</title>
+</head>
+<body>
+<p id="demo">Mouse</p>
+<script>
+document.addEventListener("mouseover",myfunction);
+document.addEventListener("click",mysecondfunction);
+document.addEventListener("mouseout",mythirdfunction);
+
+function myfunction(){
+document.getElementById("demo").innerHTML ="MousedOver!"
+}
+function mysecondfunction(){
+document.getElementById("demo").innerHTML ="Clicked..!!"
+}
+function mythirdfunction(){
+document.getElementById("demo").innerHTML ="Mouseout..!"
+}
+</script>
+</body>
+</html>

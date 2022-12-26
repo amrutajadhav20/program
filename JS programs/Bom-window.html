@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> BOM-window Object </title>
+<style>
+#mybtn{
+background:#fff000;
+padding:10px;
+border:none;
+}
+</style>
+</head>
+<body>
+<button onclick="openweb()">open</button>
+<button onclick="closeweb()">Close</button>
+<button onclick="window.print()">Print</button>
+<button id="mybtn" disabled="disabled" onclick="clickOn()">purchase</button>
+<script>
+/*alert
+prompt
+var c=confirm("Do you want to delete?");
+if(c==true){
+document.write("Your data is deleted succesfully");
+}
+else{
+document.write("Your data is not deleted from succesfully");
+}
+
+
+var  h=window.innerHeight;
+var  w=window.innerWidth;
+console.log("The innerHeight of the window is",h,"and the innerWidth is",w);*/
+
+
+function openweb(){
+window.open("https://www.amazon.in/?tag=admpdesktopin-21&ref=pd_sl_a0a54b3926fe39aa31bbe1d77c526d66839a415626a77d67c474c6d1&mfadid=adm","height=400%","width=400%");
+}
+function closeweb(){
+window.close();
+}
+var mytime=setTimeout(enable,10000);
+function enable(){
+var btn = document.getElementById("mybtn");
+btn.removeAttribute("disabled");
+btn.style.backgroundColor = "pink";
+btn.style.color = "White";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ChangeTag </title>
+<style>
+div{
+border:3px solid black;
+height:100px;
+width:100px;
+background-color:pink;
+}
+
+</style>
+</head>
+<body>
+<div> I am div </div>
+<button onclick="changestyle()">click</button>
+<script>
+function changestyle(){
+var st = document.getElementsByTagName("div");
+st[0].style.backgroundColor = "yellow";
+}
+
+
+</script>
+</body>
+</html>

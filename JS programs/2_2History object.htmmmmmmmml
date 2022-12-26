@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> History Object 2</title>
+</head>
+<body>
+<button onclick ="Back()">Back</button>
+<script>
+function Back(){
+window.history.Back(window.open(""));
+}
+</script>
+</body>
+</html>
