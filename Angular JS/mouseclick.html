@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="mymod">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script src="module5.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+
+<input type="button" value="Clickme" ng-click="a=a+1">
+<h2>{{a}}</h2>
+
+<input type="button" value="dblclick" ng-dblclick="b=b+1">
+<h2>{{b}}</h2>
+
+<input type="button" value="Mouseover" ng-mouseover="c=c+1">
+<h2>{{c}}</h2>
+
+<input type="button" value="mouseenter" ng-mouseenter="d=d+1">
+<h2>{{d}}</h2>
+
+<input type="button" value="mousemove" ng-mousemove="e=e+1">
+<h2>{{e}}</h2>
+
+<input type="button" value="mouseleave" ng-mouseleave="f=f+1">
+<h2>{{f}}</h2>
+
+
+
+</div>
+</body>
+</html>

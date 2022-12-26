@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<body>
+<div >
+<input type= text ng-model="name">
+<h2>{{name}}</h2>
+</div>
+<div >
+<input type= text ng-model="surname">
+<h2 ng-bind="surname"></h2>
+</div>
+
+<div >
+
+<h2>My full Name is:{{name+" "+surname}}</h2>
+</div>
+
+
+
+</head>
+</body>
+</html>

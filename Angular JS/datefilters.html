@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="mymod">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script src="datefilters.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+<h2>{{mydate |date:"short"}}</h2>
+<h2>{{mydate |date:"medium"}}</h2>
+<h2>{{mydate |date:"longDate"}}</h2>
+
+</div>
+</body>
+</html>
